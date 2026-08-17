@@ -12,8 +12,8 @@ importers:
         specifier: 2.5.7
         version: 2.5.7
       '@turbo/gen':
-        specifier: 2.10.9
-        version: 2.10.9(@types/node@26.2.0)
+        specifier: 2.10.10
+        version: 2.10.10(@types/node@26.2.0)
       '@types/node':
         specifier: 26.2.0
         version: 26.2.0
@@ -31,7 +31,7 @@ importers:
         version: 7.0.2
       ultracite:
         specifier: latest
-        version: 7.10.3
+        version: 7.10.4
 
   apps/workshop:
     dependencies:
@@ -1945,8 +1945,8 @@ packages:
     cpu: [arm64]
     os: [darwin]
 
-  '@turbo/gen@2.10.9':
-    resolution: {integrity: sha512-zRjT7frfm4HnDY5VA0wP0geSU/nwwIxpibwlFpQZoK36SH3dB+YzbcDfNyTqWpnwL0LY01MGFC6u2xIZ/tvQ9A==}
+  '@turbo/gen@2.10.10':
+    resolution: {integrity: sha512-JU3w8p5mnhO3f81VOJWVqRfuA6Yw8ujgPVNAT1OlnZVTLZDUBLAdb4M6eSHy1Fx69iV/dx64rqoV2G790MDkuA==}
     hasBin: true
 
   '@turbo/linux-64@2.10.9':
@@ -4429,8 +4429,8 @@ packages:
   ufo@1.6.4:
     resolution: {integrity: sha512-JFNbkD1Svwe0KvGi8GOeLcP4kAWQ609twvCdcHxq1oSL8svv39ZuSvajcD8B+5D0eL4+s1Is2D/O6KN3qcTeRA==}
 
-  ultracite@7.10.3:
-    resolution: {integrity: sha512-0T27Sdpsk9XBdpAzEhJeRzMxAncowkfxW33M3l5i9iIPhptxRumXuOTzCCb+gkOckzKLA0SkTTZhbePMrUxUCw==}
+  ultracite@7.10.4:
+    resolution: {integrity: sha512-uysIdFN5kmM/DI8Nz6RWbIuQv3tewooglCuXe6gfciPoFzfuy5w0Qf+1xyd1HgQsUzBoaE1lXSpURdSL/ThqyA==}
     hasBin: true
     peerDependencies:
       oxfmt: '>=0.1.0'
@@ -6141,7 +6141,7 @@ snapshots:
   '@turbo/darwin-arm64@2.10.9':
     optional: true
 
-  '@turbo/gen@2.10.9(@types/node@26.2.0)':
+  '@turbo/gen@2.10.10(@types/node@26.2.0)':
     dependencies:
       '@inquirer/prompts': 7.10.1(@types/node@26.2.0)
       esbuild: 0.28.2
@@ -8484,7 +8484,7 @@ snapshots:
 
   ufo@1.6.4: {}
 
-  ultracite@7.10.3:
+  ultracite@7.10.4:
     dependencies:
       '@clack/prompts': 1.5.1
       cli-truncate: 6.1.1
